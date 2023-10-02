@@ -1,0 +1,262 @@
+body{
+    background-color:rgb(122, 74, 74);
+    margin-left: 6px;
+    margin-right: 5px;
+    color: white;
+ 
+}
+ul{
+    text-align: center;
+    margin-left: 2px;
+    float:right;
+    list-style-type:none;
+    float:top;
+    background-color:black;
+    position:fixed;
+    z-index: 5;
+    
+   
+}
+li{
+    float: left;
+    margin-left: 205px;
+    margin-right: 55px;
+    padding-bottom: 5px;
+    margin-top: 10px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 14px;
+
+    
+}
+li:hover{
+    background-color: rgb(69, 69, 119);
+}
+li, a{
+    color: white;
+    text-decoration: none;
+}
+#caixa{
+    display: flex;
+    position: absolute;
+    margin-top: 30px;
+    
+    
+    
+}
+
+
+#inicio{
+    text-align: center;
+      margin-top: 1%;
+    margin-left: 1%;
+    margin-right: 1%;
+
+}
+
+#caixa{
+    display: flex;
+}
+#link{
+    margin-left: 82px;
+    
+   
+
+}
+h1{
+    font-size: 250%;
+    font-style: italic;
+    margin-left: 480px;
+    margin-top: 50px;
+ 
+  
+         
+}
+.subtitulo{
+    font-size: 150%;
+    font-style: italic;
+    margin-left: 480px;
+}
+
+#logotipo,img{
+    width: 40%;
+    border-radius: 100px;
+    margin-top: 40px;
+    margin-left: 15px;
+    margin-bottom: 10px;
+    display: flex;
+    
+    
+    
+}
+  
+
+
+h3{
+    text-align: center;
+    font-size: 150%;
+    font-style: italic;
+    text-decoration: underline;
+
+    
+}
+.user-card{
+   border: 10px solid black;
+    margin-left: 420px;
+    margin-right: 420px;
+    text-align: center;
+    font-size: 100%;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin-top: 60px;
+   
+  
+}
+
+.imagem{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+    width: 250px;
+    border-radius: 5%;
+    border: 2px solid white;
+
+    
+}
+
+.parag{
+   
+}
+
+a{ 
+    margin-left: 2%;
+    font-size: 105%;
+
+}
+
+
+.localização{
+    text-align: center;
+    font-size: 105%;
+}
+.localização img{
+    width: 2%;
+    height: 2%;
+   
+   
+}
+footer{
+    text-align: center;
+    font-size: 110%;
+}
+#sobre{
+    text-align: right;
+}
+#sobre img{
+    width: 2%;
+    height: 2%;
+}
+
+#carrosel,.grupo{
+    width:191px;
+    height: 191px;
+    margin-top: 40px;
+    margin-bottom: 100px;
+    padding: 10px;
+    display: flex;
+    border-radius: 0;
+    border: 2px solid white;
+    
+}  
+.grupo{
+    
+    margin: 5px;
+    
+  
+}
+
+
+
+#carrosel{
+    border:2px solid black;
+    padding-bottom: 100px;
+    padding-right: 1160px;
+    padding-left: 10px;
+    background-color: black;
+    margin-top: 80px;
+    
+}
+@media all and (max-width:768px){
+       h1{
+     display: flex;
+     margin-left: 500px;
+     margin-right: 50px;
+     font-size: 40px;
+     margin-top: 0px;
+     font-style: italic;
+     
+   
+
+    }
+    #logotipo,img{
+        width: 200px;
+        height: 200px;
+        margin: 10px;
+        margin-bottom: 30px;
+        display: flex;
+    }
+    ul{
+        visibility: hidden;
+    }
+    #link{
+        margin: 15px;
+        font-size: 30px;
+    }
+    #carrosel{
+        margin-top: 100px;
+        margin-r:100px;
+    }
+
+    #carrosel img{
+        padding: 5px;
+        width: 95px;
+    
+    }
+    .grupo{
+        width: 140px;
+        height: 140px;
+        margin: 6px;
+        margin-top: 40px;
+    }
+    .user-card{
+        margin:10px;
+        padding: 10px;
+ }
+ .localização{
+    font-size: 25px;
+ }
+ #credito{
+    font-size: 25px;
+ }
+ h2{
+    margin-left:80px;
+    display: flex;
+ }
+ 
+
+    
+}
+    
+
+    
+    
+
+   
+
+
+
+
+
+
+
+
+    
